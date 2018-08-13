@@ -1,0 +1,16 @@
+{
+  "name": "yandexsearch",
+  "main": "./lib/googlesearch",
+  "version": "1.8.0",
+  "description": "Search Highlighted word in yandex",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "yandexsearch:yandex-it"
+  },
+  "repository": "https://github.com/shendezhou/yandexsearch",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

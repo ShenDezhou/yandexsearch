@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle yandexsearch'
+      'command': 'yandexsearch:yandex-it'
+    }
+  ]
+'menu': [
+  {
+    'label': 'My Packages'
+    'submenu': [
+      'label': 'yandex Search'
+      'submenu': [
+        {
+          'label': 'Search'
+          'command': 'yandexsearch:yandex-it'
+        }
+      ]
+    ]
+  }
+]
